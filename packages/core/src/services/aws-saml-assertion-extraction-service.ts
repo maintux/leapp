@@ -14,7 +14,7 @@ const authenticationUrlRegexes = new Map([
       /^https:\/\/login\.okta\.com\/.*/,
       /^https:\/\/accounts\.google\.com\/ServiceLogin.*/,
       /^https:\/\/login\.microsoftonline\.com\/*.*\/oauth2\/authorize.*/,
-      /^https:\/\/.+\.auth0\.com\/samlp\/.+/,
+      /^https:\/\/[^/]+\.auth0\.com\/samlp\/.+/,
     ],
   ],
 ]);
